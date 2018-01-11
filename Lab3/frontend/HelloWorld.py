@@ -132,8 +132,8 @@ def redirected_page():
     # get session
     session = bottle.request.environ.get('beaker.session')
     code = request.query.get('code', '')
-    flow = OAuth2WebServerFlow(client_id='917074421019-0bb2203nh7dm9h1aeqvvkthlpcdadh2f.apps.googleusercontent.com',
-                               client_secret='MI6SWsqHqfTNUG_aaG3PQU9u',
+    flow = OAuth2WebServerFlow(client_id='...',
+                               client_secret='...',
                                scope='https://www.googleapis.com/auth/plus.me https://www.googleapis.com/auth/userinfo.email' ,
                                redirect_uri="http://localhost:8080/redirect"
                                # redirect_uri="htttp://ec2-54-156-190-30.compute-1.amazonaws.com/redirect"
