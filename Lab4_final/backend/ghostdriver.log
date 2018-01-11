@@ -1,0 +1,41 @@
+[INFO  - 2017-12-04T00:36:35.975Z] GhostDriver - Main - running on port 12376
+[INFO  - 2017-12-04T00:36:37.120Z] Session [2fbd2c30-d88b-11e7-bbc2-2346add153ef] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-12-04T00:36:37.120Z] Session [2fbd2c30-d88b-11e7-bbc2-2346add153ef] - page.customHeaders:  - {}
+[INFO  - 2017-12-04T00:36:37.120Z] Session [2fbd2c30-d88b-11e7-bbc2-2346add153ef] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-12-04T00:36:37.120Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2fbd2c30-d88b-11e7-bbc2-2346add153ef
+[ERROR - 2017-12-04T00:36:52.496Z] Session [2fbd2c30-d88b-11e7-bbc2-2346add153ef] - page.onError - msg: Error: undefined is not a constructor (evaluating 'Object.assign({inview:v.inView,width:v.width,height:v.height,magicnumberid:v.magicNumberId,element:k},e)')
+p@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:57:12372
+https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:57:13376
+a@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:4148
+https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:4320
+$eval@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:12232
+$digest@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:10745
+$apply@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:12522
+c@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2:21716
+k@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2:21012
+onload@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2:21555
+s@https://content.mqcdn.com/yogi/js/lib/third-party/new-relic/b43ba9cb159949b1723bfef4a2420726-nr-loader-full-current.min.js:1:22310
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-04T00:36:52.497Z] Session [2fbd2c30-d88b-11e7-bbc2-2346add153ef] - page.onError - stack:
+  (anonymous function) (https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-04T00:37:01.897Z] Session [2fbd2c30-d88b-11e7-bbc2-2346add153ef] - page.onError - msg: Error: undefined is not a constructor (evaluating 'Object.assign({inview:v.inView,width:v.width,height:v.height,magicnumberid:v.magicNumberId,element:k},e)')
+p@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:57:12372
+https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:57:13376
+a@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:4148
+https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:4320
+$eval@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:12232
+$digest@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:10745
+$apply@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:3:12522
+c@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2:21716
+k@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2:21012
+onload@https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2:21555
+s@https://content.mqcdn.com/yogi/js/lib/third-party/new-relic/b43ba9cb159949b1723bfef4a2420726-nr-loader-full-current.min.js:1:22310
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-04T00:37:01.898Z] Session [2fbd2c30-d88b-11e7-bbc2-2346add153ef] - page.onError - stack:
+  (anonymous function) (https://content.mqcdn.com/yogi/js/05c24d86c70093e60651342b78c1848f-bootstrap.js:2)
+
+  phantomjs://platform/console++.js:263 in error
